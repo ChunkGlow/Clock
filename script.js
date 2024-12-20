@@ -24,3 +24,26 @@ function showTime() {
 }
 
 showTime();
+
+
+function showDate() {
+
+    var calander = "Date: " + date + "/" + month + "/" + year + " Day: " + today;
+    document.getElementById("Date").innerText = calander;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
